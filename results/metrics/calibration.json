@@ -1,0 +1,16 @@
+{
+  "measured_s_per_step_a": 0.03878054261207581,
+  "fixed_overhead_s_per_run_a": 0.1960795640945434,
+  "warmup_s_per_seed_a": 28.383402347564697,
+  "measured_s_per_step_b": 0.048038450479507444,
+  "fixed_overhead_s_per_run_b": 0.03260152339935307,
+  "warmup_s_per_seed_b": 16.096951007843018,
+  "n_runs_planned_a": 96,
+  "n_runs_planned_b": 48,
+  "original_total_steps": 10000,
+  "original_secondary_total_steps": 15000,
+  "adjusted_total_steps": 4092,
+  "adjusted_secondary_total_steps": 6138,
+  "projected_hours_at_original": 3.115796850031614,
+  "scale_applied": 1.0
+}

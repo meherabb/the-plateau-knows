@@ -1,0 +1,15 @@
+{
+  "total_parameters": 821504,
+  "trainable_parameters": 821504,
+  "model_size_mb_fp32": 3.286016,
+  "measured_s_per_step_calibration_a": 0.03878054261207581,
+  "measured_s_per_step_calibration_b": 0.048038450479507444,
+  "mean_s_per_step_actual": 0.03714926289100141,
+  "samples_per_step": 1024,
+  "samples_per_second": 27564.476932005062,
+  "gpu_peak_memory_gb": 1.27199744,
+  "n_primary_runs_completed": 96,
+  "n_secondary_runs_completed": 48,
+  "stretch_check_completed": false,
+  "total_notebook_wall_time_hours": 3.2378249123361376
+}
