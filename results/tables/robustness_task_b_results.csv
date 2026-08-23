@@ -1,0 +1,13 @@
+signal,window_fraction,n_runs,auroc,auroc_ci_low,auroc_ci_high,p_value,note
+policy_entropy,0.1,48,,,,,insufficient class balance or sample size for AUROC
+effective_rank,0.1,48,,,,,insufficient class balance or sample size for AUROC
+kl_from_reference,0.1,48,,,,,insufficient class balance or sample size for AUROC
+reward_variance,0.1,48,,,,,insufficient class balance or sample size for AUROC
+policy_entropy,0.2,48,,,,,insufficient class balance or sample size for AUROC
+effective_rank,0.2,48,,,,,insufficient class balance or sample size for AUROC
+kl_from_reference,0.2,48,,,,,insufficient class balance or sample size for AUROC
+reward_variance,0.2,48,,,,,insufficient class balance or sample size for AUROC
+policy_entropy,0.3,48,,,,,insufficient class balance or sample size for AUROC
+effective_rank,0.3,48,,,,,insufficient class balance or sample size for AUROC
+kl_from_reference,0.3,48,,,,,insufficient class balance or sample size for AUROC
+reward_variance,0.3,48,,,,,insufficient class balance or sample size for AUROC

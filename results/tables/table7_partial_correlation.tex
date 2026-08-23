@@ -1,0 +1,20 @@
+% Auto-generated -- see outputs/tables/table7_partial_correlation.csv for the source data.
+\begin{table}[t]
+\centering
+\caption{Signal-vs-breakthrough association after residualizing out raw reward at the same window, at the pre-registered primary window fraction.}
+\label{tab:table7_partial_correlation}
+\begin{tabular}{lrrrrrrrrlrrrr}
+\toprule
+signal & window\_fraction & n\_runs & n\_breakthrough & n\_stall & auroc & auroc\_ci\_low & auroc\_ci\_high & p\_value & metric & spearman\_r & spearman\_ci\_low & spearman\_ci\_high & p\_value\_bonferroni \\
+\midrule
+policy\_entropy & 0.100 & 96 & 7.000 & 89.000 & 0.258 & 0.139 & 0.386 & 0.031 & auroc\_given\_raw\_reward & NaN & NaN & NaN & 0.744 \\
+policy\_entropy & 0.100 & 96 & NaN & NaN & NaN & NaN & NaN & 0.000 & spearman\_r\_given\_raw\_reward & -0.793 & -0.851 & -0.707 & 0.000 \\
+effective\_rank & 0.100 & 96 & 7.000 & 89.000 & 0.695 & 0.506 & 0.852 & 0.087 & auroc\_given\_raw\_reward & NaN & NaN & NaN & 1.000 \\
+effective\_rank & 0.100 & 96 & NaN & NaN & NaN & NaN & NaN & 0.000 & spearman\_r\_given\_raw\_reward & 0.630 & 0.478 & 0.751 & 0.000 \\
+kl\_from\_reference & 0.100 & 96 & 7.000 & 89.000 & 0.112 & 0.007 & 0.311 & 0.000 & auroc\_given\_raw\_reward & NaN & NaN & NaN & 0.000 \\
+kl\_from\_reference & 0.100 & 96 & NaN & NaN & NaN & NaN & NaN & 0.000 & spearman\_r\_given\_raw\_reward & -0.431 & -0.628 & -0.208 & 0.000 \\
+reward\_variance & 0.100 & 96 & 7.000 & 89.000 & 0.737 & 0.503 & 0.969 & 0.036 & auroc\_given\_raw\_reward & NaN & NaN & NaN & 0.864 \\
+reward\_variance & 0.100 & 96 & NaN & NaN & NaN & NaN & NaN & 0.000 & spearman\_r\_given\_raw\_reward & 0.528 & 0.350 & 0.670 & 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

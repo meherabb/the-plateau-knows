@@ -1,0 +1,9 @@
+signal,window_fraction,n_runs,n_breakthrough,n_stall,auroc,auroc_ci_low,auroc_ci_high,p_value,metric,spearman_r,spearman_ci_low,spearman_ci_high,p_value_bonferroni
+policy_entropy,0.1,96,7.0,89.0,0.2584269662921348,0.1385733259473794,0.3858819169960473,0.031,auroc_given_raw_reward,,,,0.744
+policy_entropy,0.1,96,,,,,,0.0,spearman_r_given_raw_reward,-0.793193140241743,-0.850566845245754,-0.7072950322113442,0.0
+effective_rank,0.1,96,7.0,89.0,0.695024077046549,0.5055496453900709,0.852345426511791,0.087,auroc_given_raw_reward,,,,1.0
+effective_rank,0.1,96,,,,,,0.0,spearman_r_given_raw_reward,0.6303738143478134,0.4776550362458734,0.7508301531412844,0.0
+kl_from_reference,0.1,96,7.0,89.0,0.1123595505617977,0.0074014336917562,0.3114573016631942,0.0,auroc_given_raw_reward,,,,0.0
+kl_from_reference,0.1,96,,,,,,0.0,spearman_r_given_raw_reward,-0.4312684185741652,-0.6276211215307127,-0.2083449562803167,0.0
+reward_variance,0.1,96,7.0,89.0,0.7367576243980738,0.5027173913043479,0.9685582729468596,0.036,auroc_given_raw_reward,,,,0.8639999999999999
+reward_variance,0.1,96,,,,,,0.0,spearman_r_given_raw_reward,0.527531631621426,0.3504368046983316,0.6699876117896757,0.0
