@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "This work is under double-blind review. If you use this code or data, please cite the paper as below. Author metadata will be updated upon deanonymization."
+title: "The Plateau Knows: Pre-Registered Evidence for Early Predictors of RL Training Outcomes"
+type: software
+authors:
+  - name: "Anonymous"
+repository-code: "<anonymized-for-review>"
+license: MIT
+version: "1.0.0"
+date-released: "2026-08-23"
+preferred-citation:
+  type: conference-paper
+  title: "The Plateau Knows: Pre-Registered Evidence for Early Predictors of RL Training Outcomes"
+  authors:
+    - name: "Anonymous"
+  year: 2027
+  notes: "Submitted for double-blind review. Citation details to be finalized upon acceptance/deanonymization."

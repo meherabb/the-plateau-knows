@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Notebook execution artifacts (the committed notebook is the executed,
+# canonical run -- avoid accidentally overwriting it with a fresh re-run's
+# metadata/cell-id churn during local development)
+*.orig
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+paper/*.fdb_latexmk
+paper/*.fls
+
+# Large / regenerable artifacts if re-running the pipeline locally
+outputs/
+results/raw_run_logs/checkpoints/
+*.pt
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
+*.swp
