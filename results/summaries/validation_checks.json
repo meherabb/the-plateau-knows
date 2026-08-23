@@ -1,0 +1,17 @@
+{
+  "dataset generated (task integrity check cached)": true,
+  "dataset processed (n/a -- synthetic, generated in-memory; see task integrity check)": true,
+  "cache generated": true,
+  "model initialized": true,
+  "training completed (>=1 primary run)": true,
+  "evaluation completed": true,
+  "figures generated (>=5)": true,
+  "tables generated (>=4, csv)": true,
+  "tables generated (>=4, tex)": true,
+  "checkpoints saved (>=1 run)": true,
+  "metrics exported": true,
+  "logs exported": true,
+  "configuration exported": true,
+  "environment exported": true,
+  "outputs/ created": true
+}
